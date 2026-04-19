@@ -92,8 +92,22 @@ hackathon2026-yourname/
 │── .env
 │
 ├── data/
+│   ├── tickets.json
+│   ├── orders.json
+│   ├── customers.json
+│   ├── products.json
+│
 ├── src/
-└── outputs/
+│   ├── config.py
+│   ├── tools.py
+│   ├── kb.py
+│   ├── policy.py
+│   ├── logger.py
+│   ├── workflow.py
+│   ├── agent.py
+│   ├── llm.py
+│   └── utils.py
+
 
 
 ---
