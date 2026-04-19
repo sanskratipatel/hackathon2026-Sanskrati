@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env/
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Streamlit
+.streamlit/
+
+# Model / embeddings cache
+models/
+*.bin
+*.pt
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Output files
+results.json
+output.json
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
